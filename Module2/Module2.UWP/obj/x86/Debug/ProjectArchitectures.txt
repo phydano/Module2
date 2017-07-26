@@ -1,0 +1,2 @@
+C:\Users\Dano\Documents\Visual Studio 2017\Projects\Module2\Module2\Module2.UWP\Module2.UWP.csproj;x86
+C:\Users\Dano\Documents\Visual Studio 2017\Projects\Module2\Module2\Module2\Module2.csproj;neutral
