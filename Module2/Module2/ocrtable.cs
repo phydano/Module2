@@ -2,14 +2,15 @@
 
 namespace Module2
 {
-    /* Simple class to define the coloumns used in the table*/
+    /* Simple class to define the coloumns used in the table 
+     */
     public class ocrtable
     {
-        // The id of the row
+        // The id coloumn, where we get or set the id
         [JsonProperty(PropertyName = "Id")]
-        public string id { get; set; }
+        public string ID { get; set; }
 
-        // The text where we extracted from the image
+        // The Text coloumn, where we get or set the text description
         [JsonProperty(PropertyName = "Text")]
         public string Ocrtext { get; set; }
 

@@ -10,8 +10,7 @@ namespace Module2
 {
     public partial class MainPage : ContentPage
     {
-
-        // My generated subscription key and URI last uptill the 15th of August 2017
+        // My generated subscription key and URI last until the 15th of August 2017
         const string subscriptionKey = "509e2704d1f5448dabf1afb53ac8b65e";
         const string uriBase = "https://westcentralus.api.cognitive.microsoft.com/vision/v1.0";
         MobileServiceClient client = AzureService.serviceInstance.serviceClient;
@@ -28,8 +27,7 @@ namespace Module2
 
             try
             {
-                // Get the file from the localstorage using PCLStorage
-                
+                // Get the file from the localstorage using PCLStorage              
                 var file = await FileSystem.Current.LocalStorage.GetFileAsync(imageFile);
                 image.Source = ImageSource.FromFile(file.Path); // show the image 
                 // Build the String to put all the words together
